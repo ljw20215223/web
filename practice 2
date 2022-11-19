@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+      input{
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }  
+    </style>
+    
+</head>
+<body>
+   <h2><u>회원 가입</u></h2>
+   <hr>
+       <table>
+           <tr>
+            <td>아이디</td>
+            <td><input style="width: 200%;" type="text" placeholder="아이디"></td>
+            <td><input style="padding-top: 2px; padding-bottom: 2px; margin-left: 190px; background-color:gray; color: white;" type="button" value="중복확인"></td>
+           </tr>
+           <tr>
+             <td>비밀번호</td>
+             <td><input style="width:250%;" type="password" placeholder="비밀번호(8자 이상)"></td>
+             <td style="padding-left: 280px">8자이상</td>
+           </tr>
+           <tr>
+            <td>비밀번호 확인</td>
+            <td><input style="width:250%;" type="password" placeholder="비밀번호 재입력"></td>
+           </tr>
+           <tr>
+            <td>이름(또는 별명)</td>
+            <td><input style="width:250%;" type="password" placeholder="이름"></td>
+           </tr>   
+       </table>
+       <hr>
+       <p> ※ 이메일 인증하기 : 이메일 수신된 6자리 코드를 '인증코드'칸에 입력해주세요</p>
+       <table>
+        <tr>
+           <td>이메일</td>
+           <td><input style="width:130%; margin-left:55px;" type="address" placeholder="이메일주소"></td>
+           <td ><input style="margin-left:140px; padding-top:3px; padding-bottom:3px;"type="button" value="인증코드 받기"></td>
+        </tr>
+        <tr>
+            <td>인증코드</td>
+            <td><input style="width:130%; margin-left:55px;" type="address" placeholder="6자리인증코드"></td>
+        </tr>
+       </table>
+       <hr>
+       <div style="margin-left: 27%">
+        <input type="button" value="저장하기">
+        <input type="button" value="취소하기">
+       </div>
+</body>
+</html>
