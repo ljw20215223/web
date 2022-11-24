@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>토끼</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 20px;
+        }
+        div{
+            margin: 0 auto;
+            display: table;
+            background-color: #eee;
+            width:500px;
+            text-align:center;
+            border:solid 1px green;
+        }
+        h1{
+            color: deeppink;
+            font-size: 3em;
+            text-shadow: 3px 3px 3px green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>토끼</h1>
+        <img src="images/짖는개2.jpg">
+        <p style="line-height: 2;color:blueviolet;">토끼는 초식동물로, 보통</p>
+        <p style="color:rgb(57, 185, 228);">'귀가 길고 앞발은 짧고 뒷발은 길어 깡<br>
+        충깡출 뛰어다니는'</p>
+        <p style="line-height: 2;color:blueviolet;">동물로 묘사된다. 동요나 만화영화의 소재가 될 정도로</p>
+        <p style="color:rgb(57, 185, 228);">친숙한 동물이기도 하다</p>
+    </div>
+</body>
+</html>
